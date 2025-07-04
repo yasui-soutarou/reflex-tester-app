@@ -1,2 +1,4 @@
-package jp.ac.aut.reflex_tester_app;public class StatisticsActivity {
+package jp.ac.aut.reflex_tester_app;
+
+public class StatisticsActivity {
 }
