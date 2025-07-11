@@ -3,4 +3,59 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/ScoreText"
+        android:layout_width="350dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="36dp"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/ListView"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_statistics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreText"
+        app:layout_constraintVertical_bias="0.797">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_statistics"
+        android:layout_width="350dp"
+        android:layout_height="85dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="495dp"
+        tools:text="統計へ" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="32dp"
+        android:text="もう一度"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_statistics" />
+</androidx.constraintlayout.widget.ConstraintLayout>

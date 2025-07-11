@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">reflex-tester-app</string>
+    <string name="statistics">測定回数:\n平均値:\n中央値:\n最大値:\n最小値:</string>
 </resources>
