@@ -8,20 +8,41 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/tap_button"
-        android:layout_width="169dp"
-        android:layout_height="178dp"
-        android:text="Tap!!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="276dp" />
+        android:id="@+id/button_history"
+        android:layout_width="350dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="79dp"
+        android:text="履歴"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_start"
+        app:layout_constraintVertical_bias="0.942" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="323dp"
-        android:layout_height="91dp"
-        android:text="押せ！！！！！"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="61dp" />
+        android:id="@+id/maintext"
+        android:layout_width="350dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="93dp"
+        android:text="反射神経測定"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="350dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="269dp"
+        android:text="開始"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maintext" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,38 +5,15 @@
     android:layout_width="match_parent"
              android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="352dp"
-        android:layout_height="130dp"
-        android:text="反射神経測定"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="38dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="371dp"
-        android:layout_height="167dp"
-        app:srcCompat="@drawable/_2025_07_04_145935"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="241dp" />
-
     <Button
-        android:id="@+id/button_start"
-        android:layout_width="187dp"
-        android:layout_height="98dp"
-        android:text="開始"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="431dp" />
+        android:id="@+id/tap_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="tap!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_history"
-        android:layout_width="195dp"
-        android:layout_height="113dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="580dp"
-        tools:text="履歴" />
 </androidx.constraintlayout.widget.ConstraintLayout>
