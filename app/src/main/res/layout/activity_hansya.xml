@@ -9,9 +9,21 @@
         android:id="@+id/tap_button"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginBottom="256dp"
         android:text="tap!"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status_text"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="85dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
