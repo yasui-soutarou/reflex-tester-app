@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.942" />
 
     <TextView
-        android:id="@+id/maintext"
+        android:id="@+id/mainview"
         android:layout_width="350dp"
         android:layout_height="85dp"
         android:layout_marginTop="93dp"
@@ -44,5 +44,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maintext" />
+        app:layout_constraintTop_toBottomOf="@+id/mainview" />
 </androidx.constraintlayout.widget.ConstraintLayout>
